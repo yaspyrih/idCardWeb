@@ -112,13 +112,21 @@ img {
     align-items: start;
 }
 
-.collection__title {
+.main_title {
+    font-family: var(--alternative-font);
+    font-size: var(--font-display);
+    font-weight: 700;
+    padding: var(--spacing-20)
+}
+
+.title {
     font-family: var(--alternative-font);
     font-size: var(--font-display);
     font-weight: 500;
+    padding: var(--spacing-20)
 }
 
-.collection__text {
+.text {
     font-family: var(--alternative-font);
     font-size: var(--font-large);
     font-weight: 300;
