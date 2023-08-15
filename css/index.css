@@ -81,6 +81,8 @@ ul, ol {
 
 p {
     font-size: 1.8em;
+    text-align: justify;
+    padding: var(--spacing-20);
 }
 
 img {
